@@ -2,18 +2,18 @@
 
 public class Book {
 
-    String NameOfBook;
-    String Author;
+    String nameOfBook;
+    String author;
     int ID;
-    int PublicationDate;
-    int Pages;
+    int publicationDate;
+    int pages;
     static int count = 0;
     public String getNameOfBook() {
-        return NameOfBook;
+        return nameOfBook;
     }
 
     public String getAuthor() {
-        return Author;
+        return author;
     }
 
     public int getID() {
@@ -21,35 +21,35 @@ public class Book {
     }
 
     public int getPublicationDate() {
-        return PublicationDate;
+        return publicationDate;
     }
 
     public int getPages() {
-        return Pages;
+        return pages;
     }
 
 
     public Book(String nameOfBook, String author, int ID, int rokWydania, int pages) {
-        NameOfBook = nameOfBook;
-        Author = author;
+        this.nameOfBook = nameOfBook;
+        this.author = author;
         this.ID = ID;
-        PublicationDate = rokWydania;
-        Pages = pages;
+        publicationDate = rokWydania;
+        this.pages = pages;
         count+=1;
     }
 
     public Book(){
-        NameOfBook = "EMPTY";
-        Author = "EMPTY";
+        nameOfBook = "EMPTY";
+        author = "EMPTY";
         this.ID = -1;
-        PublicationDate = -1;
-        Pages = -1;
+        publicationDate = -1;
+        pages = -1;
         count+=1;
     }
 
     public void DisplayBook(){
-        System.out.println(this.Author + " " + this.NameOfBook + " ID: " + this.ID +
-                " number of pages" + this.Pages + " publication date:"+ this.PublicationDate);
+        System.out.println(this.author + " " + this.nameOfBook + " ID: " + this.ID +
+                " number of pages" + this.pages + " publication date:"+ this.publicationDate);
     }
 
 
