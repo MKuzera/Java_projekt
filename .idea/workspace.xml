@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dad45528-1264-432a-93ad-6cb8c230704c" name="Changes" comment="3nd Commit: &#10;Added:&#10;Fixed variables names">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/library/data/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/library/logic/DataReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/person/data/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/person/logic/Logic.java" afterDir="false" />
+    <list default="true" id="dad45528-1264-432a-93ad-6cb8c230704c" name="Changes" comment="3nd Commit: &#10;Added:&#10;Logic, Library , base for person">
+      <change afterPath="$PROJECT_DIR$/src/library/app/LibraryApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/library/app/LibraryControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/data/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Library.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/logic/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/logic/DataReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -73,7 +69,7 @@
       <workItem from="1678203155810" duration="1177000" />
       <workItem from="1678432972345" duration="5326000" />
       <workItem from="1678692897487" duration="2537000" />
-      <workItem from="1678813827969" duration="868000" />
+      <workItem from="1678813827969" duration="3042000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit: &#10;Added:&#10;Book , Library and Main class">
       <created>1678433254001</created>
@@ -96,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678435250154</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3nd Commit: &#10;Added:&#10;Logic, Library , base for person">
+      <created>1678814917846</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678814917846</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +120,7 @@
     <MESSAGE value="First Commit: &#10;Added:&#10;Book , Library and Main class" />
     <MESSAGE value="2nd Commit: &#10;Added:&#10;Finished Book class" />
     <MESSAGE value="3nd Commit: &#10;Added:&#10;Fixed variables names" />
-    <option name="LAST_COMMIT_MESSAGE" value="3nd Commit: &#10;Added:&#10;Fixed variables names" />
+    <MESSAGE value="3nd Commit: &#10;Added:&#10;Logic, Library , base for person" />
+    <option name="LAST_COMMIT_MESSAGE" value="3nd Commit: &#10;Added:&#10;Logic, Library , base for person" />
   </component>
 </project>
